@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Logs & Screenshots
+Logs/
+Screenshots/
+Reports/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (WAŻNE!)
+appsettings.local.json
+*.pfx
